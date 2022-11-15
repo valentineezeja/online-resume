@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- HTML Codes by Quackit.com -->
+<title>
+Personal projects</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Personal projects">
+<style>
+body {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
+h1{text-align: center;font-family:Arial, sans-serif;color:#000000;background-color:#ffffff;}
+p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;}
+</style>
+</head>
+<body>
+        <h1>Personal projects – 2022</h1>
+<p>This is a simple repository for projects I have worked on, usually during weekends. A quick summary of each project and a link to a blog post detailing the required steps would be provided for each project.</p>
+<p></p>
+<p>Please be aware that this page will be modified frequently to add updates.</p>
+
+<p></p>
+
+<p>
+    <h2>
+        • Project 1: <a href="https://resume.valentineezeja.com" target="_blank" rel="noopener noreferrer">An online website served from Amazon S3 and CloudFront</a>
+
+    </h2> 
+</p>
+<p>This project involves creating an online resume/CV using HTML and CSS, then hosting the site on S3 and serving it via CloudFront distribution. </p>
+<p></p>
+<p>
+    <h4>The following technologies were used to complete the project:</h4>
+</p>
+<p></p>
+<p>• HTML/CSS for designing the resume</p>
+<p>• S3 & CloudFront for hosting, distributing and caching the page</p>
+<p>• Route53 and ACM for configuring the domains/DNS records and configuring SSL certificate respectively</p>
+<p>• JavaScript and DynamoDB for page visitor count display and storage of the visitor count respectively </p>
+<p>• AWS CDK for Python (Boto3) used for the Lambda function</p>
+<p>• API Gateway for communicating with DynamoDB via Lambda</p>
+<p>• Amazon SAM for deploying the resources (API, Lambda, and DynamoDB)</p>
+<p>• GitHub for source control</p>
+<p>• GitHub Actions for CI/CD</p>
+<p></p>
+<p>NB: There have been some erratic behaviours with the count fetch from DynamodB, hence I've had to temporarily remove the feature until I fix it soon.</p>
+<p></p>
+<p></p>
+<p> 
+    <h2>
+        • Project 2: <a href="https://valscloud.co.uk" target="_blank" rel="noopener noreferrer">A self-hosted tech blog</a>
+    </h2>
+</p>
+<p>I have been looking into technical writing of late and while there are free platforms for this purpose, I chose to personally host my website. 
+    This approach gives me the opportunity to<br> manage a live environment as I am fully responsible for maintaining and protecting the prod environment.<br>
+</p>
+</p>
+<p>
+    This project is about 70% ready and currently offline as I am sorting out the security bits and organising contents before it goes live.
+    Also, the site would be available only during work hours<br> for now as the server is scheduled to only run during the day to minimise costs🤑; the plan is to re-factor this into a highly available and scalable architecture when the blog grows. <br> 
+    
+<p></p>
+<p>This page will be updated as I progress.</p>
+</p>
+<p></p>
+<p>
+    <h4>Technologies used for the project so far:</h3>
+</p>
+<p>• CloudFormation for deploying resources to AWS</p>
+<p>• Converted the CFN template to Terraform just to understand how it works and the differences</p>
+<p>•  Amazon EC2 (RHEL) for web content and database host for now</p>
+<p>•  CloudWatch for monitoring</p>
+<p>•  Apache web server for hosting the website</p>
+<p>•  WordPress for CMS</p>
+<p>•  Docker for image backup </p>
+<p></p>
+
+<p></p>
+<div class="row">
+
+    <div class="twelve columns collapsed">
+
+       <h1>More updates coming soon!!</h1>
+       <h1>
+        <button class="btn btn-success" onclick=" window.open('https://resume.valentineezeja.com','_blank')"> Back to my resume</button>
+     </h1>
+    </div> 
+
+ </div> 
+</body>
+</html>
