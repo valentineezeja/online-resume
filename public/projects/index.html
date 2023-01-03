@@ -15,7 +15,7 @@ p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:norma
 </style>
 </head>
 <body>
-        <h1>Personal projects – 2022</h1>
+        <h1>Personal projects</h1>
 <p>This is a simple repository for projects I have worked on, usually during weekends. A quick summary of each project and a link to a blog post detailing the required steps would be provided for each project.</p>
 <p></p>
 <p>Please be aware that this page will be modified frequently to add updates.</p>
@@ -28,7 +28,10 @@ p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:norma
 
     </h2> 
 </p>
-<p>This project involves creating an online resume/CV using HTML and CSS, then hosting the site on S3 and serving it via CloudFront distribution. </p>
+<p>This project involves creating an online resume/CV using HTML and CSS, then hosting the site on S3 and serving it via CloudFront distribution. 
+    
+GitHub repo: <a href="https://github.com/valentineezeja/online-resume" target="_blank" rel="noopener noreferrer">https://github.com/valentineezeja/online-resume</a> 
+</p>
 <p></p>
 <p>
     <h4>The following technologies were used to complete the project:</h4>
@@ -41,15 +44,42 @@ p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:norma
 <p>• AWS CDK for Python (Boto3) used for the Lambda function</p>
 <p>• API Gateway for communicating with DynamoDB via Lambda</p>
 <p>• Amazon SAM for deploying the resources (API, Lambda, and DynamoDB)</p>
-<p>• GitHub for source control</p>
+<p>• Git for version  control</p>
 <p>• GitHub Actions for CI/CD</p>
 <p></p>
 <p>NB: There have been some erratic behaviours with the count fetch from DynamodB, hence I've had to temporarily remove the feature until I fix it soon.</p>
 <p></p>
 <p></p>
 <p> 
+
+
+    <p>
+        <h2>
+            • Project 2: <a href="https://mxa6w7azhe.execute-api.us-east-1.amazonaws.com/web" target="_blank" rel="noopener noreferrer">A simple serverless web app for London local weather</a>
+    
+        </h2> 
+    </p>
+    <p>This project involves creating a serveless weather app and deploying it to AWS solely via Terraform. 
+
+        GitHub repo with implementation documentation: <a href="https://github.com/valentineezeja/Project-1.0
+        " target="_blank" rel="noopener noreferrer">https://github.com/valentineezeja/Project-1.0 </a> 
+    </p> 
+    </p>
+    <p></p>
+    <p>
+        <h4>The following technologies were used to complete the project:</h4>
+    </p>
+    <p></p>
+    <p>• Terraform used for deploying the infrastructure</p>
+    <p>• HTML/CSS and Node  for designing the app</p>
+    <p>• S3  for initially hosting the web files (source for Lambda function)</p>
+    <p>• Lambda used for hosting the web files</p>
+    <p>• API Gateway for serving the content by making calls to Lambda </p>
+    <p></p>
+    <p></p>
+    <p> 
     <h2>
-        • Project 2: <a href="https://valscloud.co.uk" target="_blank" rel="noopener noreferrer">A self-hosted tech blog</a>
+        • Project 3: <a href="https://valscloud.co.uk" target="_blank" rel="noopener noreferrer">A self-hosted tech blog</a>
     </h2>
 </p>
 <p>I have been interested in technical writing lately, and while there are free platforms for this purpose, I chose to personally host my website. 
@@ -70,10 +100,9 @@ p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:norma
     <h4>Technologies used for the project so far:</h3>
 </p>
 <p>• CloudFormation for deploying resources to AWS</p>
-<p>• Converted the CFN template to Terraform just to understand how it works and the differences</p>
 <p>•  Amazon EC2 (RHEL) for web content and database host for now</p>
 <p>•  CloudWatch for monitoring</p>
-<p>•  Apache web server for hosting the website</p>
+<p>•  Apache web server for hosting</p>
 <p>•  WordPress for CMS</p>
 <p>•  Docker for image backup </p>
 <p></p>
